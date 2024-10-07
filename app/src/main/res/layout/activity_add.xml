@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="1"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/kino_id"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Film 'ID' si"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_add"
+            android:id="@+id/image"
+            />
+        <EditText
+            android:id="@+id/kino_name"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Film nomi"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+        <EditText
+            android:id="@+id/kino_date"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Film chiqarilgan yili"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+        <EditText
+            android:id="@+id/kino_language"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Tili"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+        <EditText
+            android:id="@+id/kino_nationale"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Davlati"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+        <EditText
+            android:id="@+id/kino_silka"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Silkasi"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+
+        <EditText
+            android:id="@+id/kino_description"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Film haqida qo'shimcha ma'lumotlar"
+            android:textSize="18sp"
+            android:background="@drawable/item_selected"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selected"
+            android:layout_marginTop="20dp"
+            android:text="Qo'shish"
+            android:id="@+id/btn_add"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
